@@ -1,0 +1,79 @@
+/********************Tag Selectors********************/
+body {
+  background-color: hsl(185, 75%, 39%);
+  font-family: "Kumbh Sans", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  overflow: hidden;
+}
+
+p {
+  color: hsl(227, 10%, 46%);
+  margin: 0;
+}
+
+table {
+  position: relative;
+  left: 50px;
+  top: 15px;
+}
+
+td {
+  text-align: center;
+  padding-right: 50px;
+}
+
+/********************Class Selectors********************/
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  left: 42.5%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.card {
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  position: absolute;
+  left: 39%;
+  top: 30%;
+}
+.victor {
+  border-radius: 100px;
+  border: solid 5px white;
+  position: absolute;
+  top: 100px;
+  left: 150px;
+}
+.pattern {
+  height: 150px;
+  width: 400px;
+  border-radius: 15px 15px 0 0;
+}
+.top {
+  position: relative;
+  right: 550px;
+  bottom: 400px;
+}
+.bot {
+  position: relative;
+  left: 550px;
+  bottom: 550px;
+}
+.text {
+  position: relative;
+  top: 65px;
+}
+.london {
+  line-height: 40px;
+}
+.bold {
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
